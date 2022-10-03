@@ -1,0 +1,3 @@
+[submodule "ninjarmm_screening"]
+	path = ninjarmm_screening
+	url = https://github.com/NinjaRMM/ninjarmm_screening.git
