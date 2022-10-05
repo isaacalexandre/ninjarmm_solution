@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"xstring": "cpp",
+			"memory": "cpp",
+			"vector": "cpp"
+		}
+	}
 }

@@ -88,14 +88,25 @@
 		Valgrind 
 
 15. What security concerns have you come across in the past and how have you addressed them?
+	I've already faced problems of direct access to the system via parameter ( system("echo "argv[1])), sensitive data stored in static memory, and also the most classic, which is the buffer overflow.
+	I believe most security issues can be minimized using good development practices.
 
 16. Name some tools and/or techniques that you personally find to be the most helpful surrounding development.
+	Better IDE's that make the language friendly, debuggers, log systems and tab completion.
 
 17. Name some tools and/or techniques that you personally find to be the most helpful surrounding code maintenance.   
+	Git and code pattern.
 
 18. Scenario: You are dealing with legacy code containing no test suites nor documented requirements, and are required to make a change. Describe your expected process for how you may approach the solution. 
 	a. Consider both a long term and short-term solutions. 
+		Short-term: for short time I believe that the change should be done based on trial and error, always looking for side effects that may appear.
+		Long-term: do code research work and create test cases and documentation to be more assertive and secure in future changes.
 
 19. What concerns do you had supporting legacy operating systems? (If any)
+	Compatibility with IDE, compilers, and even base for testing software. 
+	Security is also an issue when talking about legacy operating systems as security updates are no longer performed for it.
 
 20. Tell us about a project you worked on that you found to be interesting or unusual. 
+	I believe that the most interesting project I participated in was the creation of a POS (Point of sale) from scratch.
+	From the first LED that blinked to the final safety certification and card issuers certifications.
+	During the process I worked in several areas, such as communication interfaces (WiFi, NFC, Bluetooth and 3G/4G), data capture from smart cards, encryption, HMI and even in customer financial applications.
